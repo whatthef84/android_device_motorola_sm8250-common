@@ -206,7 +206,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service_64 \
     libgui_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
-
+    MotCamera3
+    
 # Common init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -338,10 +339,6 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
-
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.motokona
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
